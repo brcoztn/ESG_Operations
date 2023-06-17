@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+	<featureEdgeSet 
+		ID="0" 
+		vertexName="Do Factory reset all DUTs" 
+		relatedFeature="WPS" 
+		isSelected="true"
+		edgeSet="([, Do Factory reset all DUTs)(Do Factory reset all DUTs, Wait until DUT up)" />
+	<featureEdgeSet 
+		ID="1" 
+		vertexName="Plug DSL Cable to the DUT" 
+		relatedFeature="WPS" 
+		isSelected="true"
+		edgeSet="(Wait until DUT up - Plug DSL Cable to the DUT),(Plug DSL Cable to the DUT - check DUT is became Agent)" 
+	/>
+	<featureEdgeSet 
+		ID="2" 
+		vertexName="Wait until DUT up"
+		relatedFeature="WPS"
+		isSelected="true"
+		edgeSet="(Wait until DUT up - check DUT is became Controller),(Do Factory reset all DUTs - Wait until DUT up)" />
+	<featureEdgeSet
+		ID="3"
+		vertexName="check DUT is became Controller"
+		relatedFeature="WPS"
+		isSelected="true"
+		edgeSet="(Wait until DUT up - check DUT is became Controller),(check DUT is became Controller - Push WPS Button),(check DUT is became Controller - check LED is blinked BLUE)"
+	/>
+	<featureEdgeSet
+		ID="4"
+		vertexName="check DUT is became Agent"
+		relatedFeature="WPS"
+		isSelected="true"
+		edgeSet="(Plug DSL Cable to the DUT - check DUT is became Agent),(check DUT is became Agent - Push WPS Button),(check DUT is became Agent - check LED is blinked WHITE)"
+	/>
+	<featureEdgeSet
+		ID="5"
+		vertexName="Push WPS Button"
+		relatedFeature="WPS"
+		isSelected="true"
+		edgeSet="(check DUT is became Controller - Push WPS Button),(check DUT is became Agent - Push WPS Button),(Push WPS Button - start WPS),(check LED is blinked BLUE - Push WPS Button),(check WPS overlap - Push WPS Button),(check LED is blinked WHITE - Push WPS Button)"
+	/>
+	<featureEdgeSet
+		ID="6"
+		vertexName="checkLED is blinked BLUE"
+		relatedFeature="LED"
+		isSelected="false"
+		edgeSet="(check DUT is became Controller - check LED is blinked BLUE),(check WPS timeout - check LED is blinked BLUE),(check LED is blinked BLUE - Push WPS Button),(check LED is blinked BLUE - wait 3 sec)"
+	/>
+	<featureEdgeSet
+		ID="7"
+		vertexName="start WPS"
+		relatedFeature="WPS"
+		isSelected="true"
+		edgeSet="(Push WPS Button - start WPS),(start WPS - check WPS timeout),(start WPS - WPS Finish),(start WPS - check LED is blinked WHITE),(start WPS - check WPS overlap),(wait 3 sec - start WPS)"
+	/>
+	<featureEdgeSet
+		ID="8"
+		vertexName="wait 3 sec"
+		relatedFeature="WPS"
+		isSelected="true"
+		edgeSet="(wait 3 sec - start WPS),(check WPS timeout - wait 3 sec),(check LED is blinked BLUE - wait 3 sec),(check WPS overlap - wait 3 sec)"
+	/>
+	<featureEdgeSet
+		ID="9"
+		vertexName="check WPS timeout"
+		relatedFeature="WPS"
+		isSelected="true"
+		edgeSet="(start WPS - check WPS timeout),(check WPS timeout - check LED is blinked BLUE),(check WPS timeout - wait 3 sec),(check LED is blinked WHITE - check WPS timeout)"
+	/>
+	<featureEdgeSet
+		ID="10"
+		vertexName="check LED blinked WHITE"
+		relatedFeature="LED"
+		isSelected="false"
+		edgeSet="(check DUT is became Agent - check LED is blinked WHITE),(start WPS - check LED is blinked WHITE),(check LED is blinked WHITE - check WPS overlap),(check LED is blinked WHITE - WPS Finish),(check LED is blinked WHITE - check WPS timeout),(check LED is blinked WHITE - Push WPS Button)"
+	/>
+	<featureEdgeSet
+		ID="11"
+		vertexName="check WPS overlap"
+		relatedFeature="WPS"
+		isSelected="true"
+		edgeSet="(start WPS - check WPS overlap),(check LED is blinked WHITE - check WPS overlap),(check WPS overlap - wait 3 sec),(check WPS overlap - Push WPS Button)"
+	/>
+	<featureEdgeSet
+		ID="12"
+		vertexName="check LED is blinked GREEN"
+		relatedFeature="LED"
+		isSelected="true"
+		edgeSet="(WPS Finish, check LED is blinked GREEN),(check LED is blinked GREEN,])"
+	/>
+	<featureEdgeSet
+		ID="13"
+		vertexName="WPS Finish"
+		relatedFeature="WPS"
+		isSelected="true"
+		edgeSet="(start WPS - WPS Finish),(check LED is blinked WHITE - WPS Finish),(WPS Finish - ]),(WPS Finish - check LED is blinked GREEN)"
+	/>
+</root>

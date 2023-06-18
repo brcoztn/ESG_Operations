@@ -1,0 +1,298 @@
+elementNode if statement
+Attribute : AP_SPL
+end SPLNode if
+Attribute : selected
+FeatureNameAP_SPL
+Attribute SPL : AP_SPL
+elementNode if statement
+Attribute : Device
+end SPLNode if
+Attribute : selected
+FeatureNameDevice
+Attribute SPL : Device
+elementNode if statement
+Attribute : LED
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : White
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Blue
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Green
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Red
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : TemperatureSense
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : PatienceTime
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Login
+end SPLNode if
+Attribute : selected
+FeatureNameLogin
+Attribute SPL : Login
+elementNode if statement
+Attribute : Telnet
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : TelnetPassword
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : TelnetPort
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : TelnetUsername
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : WEBUI
+end SPLNode if
+Attribute : selected
+FeatureNameWEBUI
+Attribute SPL : WEBUI
+elementNode if statement
+Attribute : WEBUsername
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : WEBPassword
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : WEBCredential
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : WEBExpirationTime
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Reset
+end SPLNode if
+Attribute : selected
+FeatureNameReset
+Attribute SPL : Reset
+elementNode if statement
+Attribute : Upgrade
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : SimiltaneusUpgrade
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : LiveUpgrade
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : EnergySave
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : ChannelManagement
+end SPLNode if
+Attribute : selected
+FeatureNameChannelManagement
+Attribute SPL : ChannelManagement
+elementNode if statement
+Attribute : CAC
+end SPLNode if
+Attribute : selected
+FeatureNameCAC
+Attribute SPL : CAC
+elementNode if statement
+Attribute : RadarDetection
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : DFSReEntry
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : ZeroWaitDFS
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : clientPrioritization
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Parental
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Wireless
+end SPLNode if
+Attribute : selected
+FeatureNameWireless
+Attribute SPL : Wireless
+elementNode if statement
+Attribute : Radio
+end SPLNode if
+Attribute : selected
+FeatureNameRadio
+Attribute SPL : Radio
+elementNode if statement
+Attribute : GHz24
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : SecurityType
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Password
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : SSID
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : GHz5
+end SPLNode if
+Attribute : selected
+FeatureNameGHz5
+Attribute SPL : GHz5
+elementNode if statement
+Attribute : SecurityType5
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Password5
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : SSID5
+end SPLNode if
+Attribute : selected
+FeatureNameSSID5
+Attribute SPL : SSID5
+elementNode if statement
+Attribute : GuestNetwork
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : SSID_Guest
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Password_Guest
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : MacFiltering
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : WPS
+end SPLNode if
+Attribute : selected
+FeatureNameWPS
+Attribute SPL : WPS
+elementNode if statement
+Attribute : Network
+end SPLNode if
+Attribute : selected
+FeatureNameNetwork
+Attribute SPL : Network
+elementNode if statement
+Attribute : DHCP
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : NTP
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : ACS
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Datapath
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : LAN
+end SPLNode if
+Attribute : selected
+FeatureNameLAN
+Attribute SPL : LAN
+elementNode if statement
+Attribute : Steering
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : UnifiedSteering
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : SteeringOld
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Band_Steering
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : ClientSteering
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : IPTv
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : IGMP
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : QoS
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Multicast
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Apps
+end SPLNode if
+Attribute : selected
+FeatureNameApps
+Attribute SPL : Apps
+elementNode if statement
+Attribute : Vision
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : WPS_App
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : clientPrioritization_App
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : Parental_App
+end SPLNode if
+Attribute : unselected
+elementNode if statement
+Attribute : EnergySaver_App
+end SPLNode if
+Attribute : unselected

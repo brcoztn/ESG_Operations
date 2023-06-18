@@ -1,8 +1,0 @@
-<configuration>
-	<feature name="LED"/>
-	<feature name="EnergySave"/>
-	<feature name="clientPrioritization"/>
-	<feature name="Parental"/>
-	<feature name="WPS"/>
-	<feature name="Apps"/>
-</configuration>
